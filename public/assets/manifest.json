@@ -1,0 +1,13 @@
+{
+  "bundles": [
+    {
+      "name": "slot",
+      "assets": [
+        {
+          "alias": "slot",
+          "src": "/assets/slot.json"
+        }
+      ]
+    }
+  ]
+}

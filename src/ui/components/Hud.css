@@ -1,0 +1,34 @@
+.hud {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  max-width: calc(100% - 32px);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.hud__button {
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 16px;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hud__button:hover {
+  background: #f0f0f0;
+}
+
+.hud__count {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+}
